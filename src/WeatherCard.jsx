@@ -8,7 +8,7 @@ function WeatherCard(props){
                 {props.weather.day}
             </div>
             <div className="icon">
-                <i className={`wi wi-${props.weather.icon}`}></i>
+                <img src={`${props.weather.icon}`}></img>
             </div>
             <div>
                 <span className="max">{props.weather.max}°</span>
